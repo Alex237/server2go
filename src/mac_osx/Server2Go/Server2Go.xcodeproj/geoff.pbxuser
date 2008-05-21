@@ -1,0 +1,82 @@
+// !$*UTF8*$!
+{
+	6C3C80B00AA7ADF3006366C3 /* ÇPROJECTNAMEÈ */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "ÇPROJECTNAMEÈ";
+		sourceDirectories = (
+		);
+	};
+	6C3C80B70AA7ADFE006366C3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	6C3C80B80AA7ADFE006366C3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6C7D5EE90A7ECC180014E9E3 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 6C3C80B00AA7ADF3006366C3 /* ÇPROJECTNAMEÈ */;
+		activeTarget = 6C7D5EF50A7ECC730014E9E3 /* ÇPROJECTNAMEÈ */;
+		codeSenseManager = 6C3C80B80AA7ADFE006366C3 /* Code sense */;
+		executables = (
+			6C3C80B00AA7ADF3006366C3 /* ÇPROJECTNAMEÈ */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					505,
+					20,
+					48.1626,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 178761203;
+			PBXWorkspaceStateSaveDate = 178761203;
+		};
+		sourceControlManager = 6C3C80B70AA7ADFE006366C3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	6C7D5EF50A7ECC730014E9E3 /* ÇPROJECTNAMEÈ */ = {
+		activeExec = 0;
+		executables = (
+			6C3C80B00AA7ADF3006366C3 /* ÇPROJECTNAMEÈ */,
+		);
+	};
+}
