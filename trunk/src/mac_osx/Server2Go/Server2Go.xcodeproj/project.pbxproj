@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070233B50C6E3B9500BE7355 /* WebbrowserFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 070233B40C6E3B9500BE7355 /* WebbrowserFactory.cpp */; };
+		070234050C6E41B000BE7355 /* WebbrowserHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 070234040C6E41B000BE7355 /* WebbrowserHandler.cpp */; };
+		070234960C6E485B00BE7355 /* FirefoxHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 070234950C6E485B00BE7355 /* FirefoxHandler.cpp */; };
+		071ACD630CC149F500228BC1 /* NetworkHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 071ACD620CC149F500228BC1 /* NetworkHelper.cpp */; };
+		071ACE190CC2A33900228BC1 /* WaitForBrowserClose.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 071ACE180CC2A33900228BC1 /* WaitForBrowserClose.cpp */; };
+		071ACE260CC2A50600228BC1 /* ProcessHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 071ACE250CC2A50600228BC1 /* ProcessHelper.cpp */; };
+		071F123C0C46A81D007F8735 /* ServerHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 071F123B0C46A81D007F8735 /* ServerHandler.cpp */; };
+		071F12CF0C46B2A3007F8735 /* ApacheWebserverStarter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 071F12CE0C46B2A3007F8735 /* ApacheWebserverStarter.cpp */; };
+		071F12D40C46B2D5007F8735 /* MySQLDatabaseStarter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 071F12D30C46B2D5007F8735 /* MySQLDatabaseStarter.cpp */; };
+		071F132E0C46B948007F8735 /* PortHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 071F132D0C46B948007F8735 /* PortHelper.cpp */; };
+		075EF62B0C5CDC01003730AD /* FileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 075EF62A0C5CDC01003730AD /* FileHelper.cpp */; };
+		075EF7150C5CF264003730AD /* DirTraverser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 075EF7140C5CF264003730AD /* DirTraverser.cpp */; };
+		076A9D500CCB864500CBE882 /* AppleEventHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 076A9D4F0CCB864500CBE882 /* AppleEventHelper.cpp */; };
+		076F527F0C57D56F00B11F4A /* WaitForApache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 076F527E0C57D56F00B11F4A /* WaitForApache.cpp */; };
+		078489C10CD6756400F9F04D /* CaminoHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 078489C00CD6756400F9F04D /* CaminoHandler.cpp */; };
+		079AAA9D0CBE969B00FA5A59 /* logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = 079AAA9C0CBE969B00FA5A59 /* logo.icns */; };
+		079AAD740CC1376B00FA5A59 /* ProcessHelper_org.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079AAD730CC1376B00FA5A59 /* ProcessHelper_org.cpp */; };
+		07BCD1230C4423F200298B0F /* configuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BCD1220C4423F200298B0F /* configuration.cpp */; };
+		07BD2CEF0C6F93D30005CBED /* SafariHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07BD2CEE0C6F93D30005CBED /* SafariHandler.cpp */; };
+		6C7D5F060A7ECCFB0014E9E3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D5F050A7ECCFB0014E9E3 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		070233B30C6E3B9500BE7355 /* WebbrowserFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebbrowserFactory.h; sourceTree = "<group>"; };
+		070233B40C6E3B9500BE7355 /* WebbrowserFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WebbrowserFactory.cpp; sourceTree = "<group>"; };
+		070233C30C6E3DC800BE7355 /* WebbrowserHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebbrowserHandler.h; sourceTree = "<group>"; };
+		070234040C6E41B000BE7355 /* WebbrowserHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WebbrowserHandler.cpp; sourceTree = "<group>"; };
+		070234940C6E485B00BE7355 /* FirefoxHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirefoxHandler.h; sourceTree = "<group>"; };
+		070234950C6E485B00BE7355 /* FirefoxHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FirefoxHandler.cpp; sourceTree = "<group>"; };
+		071ACD610CC149F500228BC1 /* NetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkHelper.h; sourceTree = "<group>"; };
+		071ACD620CC149F500228BC1 /* NetworkHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkHelper.cpp; sourceTree = "<group>"; };
+		071ACE170CC2A33900228BC1 /* WaitForBrowserClose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitForBrowserClose.h; sourceTree = "<group>"; };
+		071ACE180CC2A33900228BC1 /* WaitForBrowserClose.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WaitForBrowserClose.cpp; sourceTree = "<group>"; };
+		071ACE240CC2A50600228BC1 /* ProcessHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessHelper.h; sourceTree = "<group>"; };
+		071ACE250CC2A50600228BC1 /* ProcessHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProcessHelper.cpp; sourceTree = "<group>"; };
+		071F123A0C46A81D007F8735 /* ServerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerHandler.h; sourceTree = "<group>"; };
+		071F123B0C46A81D007F8735 /* ServerHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ServerHandler.cpp; sourceTree = "<group>"; };
+		071F12CD0C46B2A3007F8735 /* ApacheWebserverStarter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApacheWebserverStarter.h; sourceTree = "<group>"; };
+		071F12CE0C46B2A3007F8735 /* ApacheWebserverStarter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ApacheWebserverStarter.cpp; sourceTree = "<group>"; };
+		071F12D20C46B2D5007F8735 /* MySQLDatabaseStarter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySQLDatabaseStarter.h; sourceTree = "<group>"; };
+		071F12D30C46B2D5007F8735 /* MySQLDatabaseStarter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MySQLDatabaseStarter.cpp; sourceTree = "<group>"; };
+		071F132C0C46B948007F8735 /* PortHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortHelper.h; sourceTree = "<group>"; };
+		071F132D0C46B948007F8735 /* PortHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PortHelper.cpp; sourceTree = "<group>"; };
+		075EF6290C5CDC01003730AD /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		075EF62A0C5CDC01003730AD /* FileHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileHelper.cpp; sourceTree = "<group>"; };
+		075EF7130C5CF264003730AD /* DirTraverser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirTraverser.h; sourceTree = "<group>"; };
+		075EF7140C5CF264003730AD /* DirTraverser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DirTraverser.cpp; sourceTree = "<group>"; };
+		076A9D4E0CCB864500CBE882 /* AppleEventHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleEventHelper.h; sourceTree = "<group>"; };
+		076A9D4F0CCB864500CBE882 /* AppleEventHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleEventHelper.cpp; sourceTree = "<group>"; };
+		076F527E0C57D56F00B11F4A /* WaitForApache.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = WaitForApache.cpp; sourceTree = "<group>"; };
+		076F52800C57D57E00B11F4A /* WaitForApache.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = WaitForApache.h; sourceTree = "<group>"; };
+		078489BF0CD6756400F9F04D /* CaminoHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaminoHandler.h; sourceTree = "<group>"; };
+		078489C00CD6756400F9F04D /* CaminoHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CaminoHandler.cpp; sourceTree = "<group>"; };
+		079AAA9C0CBE969B00FA5A59 /* logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = logo.icns; sourceTree = "<group>"; };
+		079AAD5A0CC1365300FA5A59 /* ProcessHelper_org.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessHelper_org.h; sourceTree = "<group>"; };
+		079AAD730CC1376B00FA5A59 /* ProcessHelper_org.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ProcessHelper_org.cpp; sourceTree = "<group>"; };
+		07BCD1210C4423F200298B0F /* configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = configuration.h; sourceTree = "<group>"; };
+		07BCD1220C4423F200298B0F /* configuration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = configuration.cpp; sourceTree = "<group>"; };
+		07BD2CED0C6F93D30005CBED /* SafariHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafariHandler.h; sourceTree = "<group>"; };
+		07BD2CEE0C6F93D30005CBED /* SafariHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SafariHandler.cpp; sourceTree = "<group>"; };
+		6C7D5EF60A7ECC730014E9E3 /* Server2Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Server2Go.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7D5EF90A7ECC740014E9E3 /* Server2Go-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Server2Go-Info.plist"; sourceTree = "<group>"; };
+		6C7D5F050A7ECCFB0014E9E3 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C7D5EF40A7ECC730014E9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		071F12390C46A7D6007F8735 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				071F123A0C46A81D007F8735 /* ServerHandler.h */,
+				071F123B0C46A81D007F8735 /* ServerHandler.cpp */,
+				071F12CD0C46B2A3007F8735 /* ApacheWebserverStarter.h */,
+				071F12CE0C46B2A3007F8735 /* ApacheWebserverStarter.cpp */,
+				071F12D20C46B2D5007F8735 /* MySQLDatabaseStarter.h */,
+				071F12D30C46B2D5007F8735 /* MySQLDatabaseStarter.cpp */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		071F128F0C46ACE5007F8735 /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				070233C30C6E3DC800BE7355 /* WebbrowserHandler.h */,
+				070234040C6E41B000BE7355 /* WebbrowserHandler.cpp */,
+				070233B30C6E3B9500BE7355 /* WebbrowserFactory.h */,
+				070233B40C6E3B9500BE7355 /* WebbrowserFactory.cpp */,
+				070234950C6E485B00BE7355 /* FirefoxHandler.cpp */,
+				070234940C6E485B00BE7355 /* FirefoxHandler.h */,
+				07BD2CED0C6F93D30005CBED /* SafariHandler.h */,
+				07BD2CEE0C6F93D30005CBED /* SafariHandler.cpp */,
+				078489BF0CD6756400F9F04D /* CaminoHandler.h */,
+				078489C00CD6756400F9F04D /* CaminoHandler.cpp */,
+			);
+			name = Browser;
+			sourceTree = "<group>";
+		};
+		071F12900C46ACF0007F8735 /* HPL */ = {
+			isa = PBXGroup;
+			children = (
+				071F132C0C46B948007F8735 /* PortHelper.h */,
+				071F132D0C46B948007F8735 /* PortHelper.cpp */,
+				075EF6290C5CDC01003730AD /* FileHelper.h */,
+				075EF62A0C5CDC01003730AD /* FileHelper.cpp */,
+				075EF7130C5CF264003730AD /* DirTraverser.h */,
+				075EF7140C5CF264003730AD /* DirTraverser.cpp */,
+				071ACD610CC149F500228BC1 /* NetworkHelper.h */,
+				071ACD620CC149F500228BC1 /* NetworkHelper.cpp */,
+				071ACE240CC2A50600228BC1 /* ProcessHelper.h */,
+				071ACE250CC2A50600228BC1 /* ProcessHelper.cpp */,
+				076A9D4E0CCB864500CBE882 /* AppleEventHelper.h */,
+				076A9D4F0CCB864500CBE882 /* AppleEventHelper.cpp */,
+			);
+			name = HPL;
+			sourceTree = "<group>";
+		};
+		6C7D5EE70A7ECC180014E9E3 = {
+			isa = PBXGroup;
+			children = (
+				079AAA9C0CBE969B00FA5A59 /* logo.icns */,
+				6C7D5F040A7ECCBF0014E9E3 /* Source */,
+				6C7D5EF70A7ECC730014E9E3 /* Products */,
+				6C7D5EF90A7ECC740014E9E3 /* Server2Go-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		6C7D5EF70A7ECC730014E9E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C7D5EF60A7ECC730014E9E3 /* Server2Go.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C7D5F040A7ECCBF0014E9E3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				079AAD730CC1376B00FA5A59 /* ProcessHelper_org.cpp */,
+				076F52800C57D57E00B11F4A /* WaitForApache.h */,
+				076F527E0C57D56F00B11F4A /* WaitForApache.cpp */,
+				071F12900C46ACF0007F8735 /* HPL */,
+				071F128F0C46ACE5007F8735 /* Browser */,
+				071F12390C46A7D6007F8735 /* Server */,
+				6C7D5F050A7ECCFB0014E9E3 /* main.cpp */,
+				07BCD1210C4423F200298B0F /* configuration.h */,
+				07BCD1220C4423F200298B0F /* configuration.cpp */,
+				079AAD5A0CC1365300FA5A59 /* ProcessHelper_org.h */,
+				071ACE170CC2A33900228BC1 /* WaitForBrowserClose.h */,
+				071ACE180CC2A33900228BC1 /* WaitForBrowserClose.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C7D5EF50A7ECC730014E9E3 /* Server2Go */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7D5EFA0A7ECC740014E9E3 /* Build configuration list for PBXNativeTarget "Server2Go" */;
+			buildPhases = (
+				6C7D5EF20A7ECC730014E9E3 /* Resources */,
+				6C7D5EF30A7ECC730014E9E3 /* Sources */,
+				6C7D5EF40A7ECC730014E9E3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Server2Go;
+			productName = wxWidgetApp;
+			productReference = 6C7D5EF60A7ECC730014E9E3 /* Server2Go.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C7D5EE90A7ECC180014E9E3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6C7D5EEA0A7ECC180014E9E3 /* Build configuration list for PBXProject "Server2Go" */;
+			hasScannedForEncodings = 0;
+			mainGroup = 6C7D5EE70A7ECC180014E9E3;
+			productRefGroup = 6C7D5EF70A7ECC730014E9E3 /* Products */;
+			projectDirPath = "";
+			targets = (
+				6C7D5EF50A7ECC730014E9E3 /* Server2Go */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C7D5EF20A7ECC730014E9E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079AAA9D0CBE969B00FA5A59 /* logo.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C7D5EF30A7ECC730014E9E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7D5F060A7ECCFB0014E9E3 /* main.cpp in Sources */,
+				07BCD1230C4423F200298B0F /* configuration.cpp in Sources */,
+				071F123C0C46A81D007F8735 /* ServerHandler.cpp in Sources */,
+				071F12CF0C46B2A3007F8735 /* ApacheWebserverStarter.cpp in Sources */,
+				071F12D40C46B2D5007F8735 /* MySQLDatabaseStarter.cpp in Sources */,
+				071F132E0C46B948007F8735 /* PortHelper.cpp in Sources */,
+				076F527F0C57D56F00B11F4A /* WaitForApache.cpp in Sources */,
+				075EF62B0C5CDC01003730AD /* FileHelper.cpp in Sources */,
+				075EF7150C5CF264003730AD /* DirTraverser.cpp in Sources */,
+				070233B50C6E3B9500BE7355 /* WebbrowserFactory.cpp in Sources */,
+				070234050C6E41B000BE7355 /* WebbrowserHandler.cpp in Sources */,
+				070234960C6E485B00BE7355 /* FirefoxHandler.cpp in Sources */,
+				07BD2CEF0C6F93D30005CBED /* SafariHandler.cpp in Sources */,
+				079AAD740CC1376B00FA5A59 /* ProcessHelper_org.cpp in Sources */,
+				071ACD630CC149F500228BC1 /* NetworkHelper.cpp in Sources */,
+				071ACE190CC2A33900228BC1 /* WaitForBrowserClose.cpp in Sources */,
+				071ACE260CC2A50600228BC1 /* ProcessHelper.cpp in Sources */,
+				076A9D500CCB864500CBE882 /* AppleEventHelper.cpp in Sources */,
+				078489C10CD6756400F9F04D /* CaminoHandler.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6C7D5EEB0A7ECC180014E9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		6C7D5EEC0A7ECC180014E9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		6C7D5EFB0A7ECC740014E9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Server2Go-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-I/usr/lib/wx/include/mac-unicode-debug-2.5",
+					"-I/usr/include/wx-2.5",
+					"-D__WXDEBUG__",
+					"-D__WXMAC__",
+					"-D_FILE_OFFSET_BITS=64",
+					"-D_LARGE_FILES",
+					"-DNO_GCC_PRAGMA",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					QuickTime,
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					System,
+					"-lwx_macud-2.5",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Server2Go;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		6C7D5EFC0A7ECC740014E9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Server2Go-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-I/usr/lib/wx/include/mac-unicode-debug-2.5",
+					"-I/usr/include/wx-2.5",
+					"-D__WXDEBUG__",
+					"-D__WXMAC__",
+					"-D_FILE_OFFSET_BITS=64",
+					"-D_LARGE_FILES",
+					"-DNO_GCC_PRAGMA",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					QuickTime,
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					System,
+					"-lwx_macud-2.5",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Server2Go;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C7D5EEA0A7ECC180014E9E3 /* Build configuration list for PBXProject "Server2Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7D5EEB0A7ECC180014E9E3 /* Debug */,
+				6C7D5EEC0A7ECC180014E9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7D5EFA0A7ECC740014E9E3 /* Build configuration list for PBXNativeTarget "Server2Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7D5EFB0A7ECC740014E9E3 /* Debug */,
+				6C7D5EFC0A7ECC740014E9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C7D5EE90A7ECC180014E9E3 /* Project object */;
+}
