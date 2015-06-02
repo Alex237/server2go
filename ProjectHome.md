@@ -1,0 +1,1 @@
+Server2Go is a Webserver that runs out of box without any installation. That means it is a webserver that can run directly from cdrom, usb stick or from any folder on harddisk. It uses Apache, PHP, MySQL, Perl as it base
